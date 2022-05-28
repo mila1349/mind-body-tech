@@ -1,9 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Header from '../portfolio/Header'
 import './style.scss'
 import Social from '../../components/Social'
+import apiKey from './emailKey'
+import * as emailjs from "emailjs-com";
 
 function Contact() {
+  const [message, setMessage] = useState({name:"", email:"", message:""})
+
+  function handleSubmit(e){
+    e.preventDefault();
+    emailjs.send(apiKey.SERVICE_ID,apiKey.TEMPLATE_ID,{
+        from_name: message.name,
+        email:message.email,
+        message: message.message,
+    },apiKey.USER_ID).then((result)=>{
+        alert("Message Sent", result.text);
+    })
+    
+    setMessage({name:"", email:"", message:""})
+}
+
   return (
     <div id='contact'>
         <Header 
@@ -12,10 +29,12 @@ function Contact() {
         />
         <div className="wrapper">
             <div className="email-contact">
-                <input type="text" placeholder='Full Name'/>
-                <input type="text" placeholder='Email Address'/>
-                <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
+                <form action="" onSubmit={handleSubmit}>
+                <input type="text" placeholder='Full Name' required onChange={e=>setMessage({...message, name:e.target.value})}/>
+                <input type="email" placeholder='Email Address' required onChange={e=>setMessage({...message, email:e.target.value})}/>
+                <textarea name="" id="" cols="30" rows="10" placeholder='Message' required onChange={e=>setMessage({...message, message:e.target.value})}></textarea>
                 <button>send</button>
+                </form>
             </div>
 
             <div className="email-contact">

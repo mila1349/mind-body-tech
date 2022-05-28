@@ -18,7 +18,7 @@ function Header({title, desc, date, links, social, button}) {
             {date}
         </p>
         {
-          button?<button>start project</button>:null
+          button? <a href="/contact"><button>start project</button></a>:null
         }
         
     </div>

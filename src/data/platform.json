@@ -231,25 +231,61 @@
         "name":"Testing Tools",
         "item":[
             {
-               "name":"WordPress",
-               "image":"images/platform/wordpress.svg" 
+               "name":"Selenium",
+               "image":"images/platform/selenium.svg" 
             },
             {
-                "name":"SharePoint",
-                "image":"images/platform/sharepoint.svg" 
+                "name":"Cucumber",
+                "image":"images/platform/cucumber.svg" 
              },
              {
-                "name":"Magento",
-                "image":"images/platform/magento.svg" 
+                "name":"Postman",
+                "image":"images/platform/postman.svg" 
              },
              {
-                "name":"Joomia",
-                "image":"images/platform/joomla.svg" 
+                "name":"Apiary",
+                "image":"images/platform/apiary.svg" 
              },
              {
-                "name":"Drupal",
-                "image":"images/platform/drupal.svg" 
-             }
+                "name":"JUnit",
+                "image":"images/platform/NUnit.svg" 
+             },
+             {
+               "name":"NUnit",
+               "image":"images/platform/Junite.svg" 
+            },
+            {
+               "name":"PHPUnit",
+               "image":"images/platform/phpunit.svg" 
+            },
+            {
+               "name":"SonarQube",
+               "image":"images/platform/sonarqube.svg" 
+            },
+            {
+               "name":"Codecov",
+               "image":"images/platform/Codecov-01.svg" 
+            },
+            {
+               "name":"Sauce Labs",
+               "image":"images/platform/saucelabs-ar21.svg" 
+            },
+            {
+               "name":"BrowserStack",
+               "image":"images/platform/browserstack-ar21.svg" 
+            },
+            {
+               "name":"Amazon",
+               "image":"images/platform/amazon.svg" 
+            },
+            {
+               "name":"SOASTA",
+               "image":"images/platform/soasta.svg" 
+            },
+            {
+               "name":"LoadRunner",
+               "image":"images/platform/load-runner.svg" 
+            }
              
         ]
     },
@@ -257,25 +293,41 @@
         "name":"DevOps",
         "item":[
             {
-               "name":"WordPress",
-               "image":"images/platform/wordpress.svg" 
+               "name":"GitHub",
+               "image":"images/platform/github-icon-1.svg" 
             },
             {
-                "name":"SharePoint",
-                "image":"images/platform/sharepoint.svg" 
+                "name":"Bitbucker",
+                "image":"images/platform/bitbucket-icon.svg" 
              },
              {
-                "name":"Magento",
-                "image":"images/platform/magento.svg" 
+                "name":"GitLab",
+                "image":"images/platform/gitlab.svg" 
              },
              {
-                "name":"Joomia",
-                "image":"images/platform/joomla.svg" 
+                "name":"Docker",
+                "image":"images/platform/shark.svg" 
              },
              {
-                "name":"Drupal",
-                "image":"images/platform/drupal.svg" 
-             }
+                "name":"Kubernetes",
+                "image":"images/platform/kubernets.svg" 
+             },
+             {
+               "name":"Appdynamics",
+               "image":"images/platform/appdynamics.svg" 
+            },
+            {
+               "name":"Jenkins",
+               "image":"images/platform/jenkins.svg" 
+            },
+            {
+               "name":"Splunk",
+               "image":"images/platform/splunk.svg" 
+            },
+            {
+               "name":"Datadog",
+               "image":"images/platform/datadog.svg" 
+            }
              
         ]
     },
@@ -283,51 +335,118 @@
         "name":"Full Stack",
         "item":[
             {
-               "name":"WordPress",
-               "image":"images/platform/wordpress.svg" 
+               "name":"Mean",
+               "image":"images/platform/mean.svg" 
             },
             {
-                "name":"SharePoint",
-                "image":"images/platform/sharepoint.svg" 
+                "name":"Mern",
+                "image":"images/platform/mern.svg" 
              },
              {
-                "name":"Magento",
-                "image":"images/platform/magento.svg" 
+                "name":"Lamp",
+                "image":"images/platform/lamp.svg" 
              },
              {
-                "name":"Joomia",
-                "image":"images/platform/joomla.svg" 
+                "name":"Phyton",
+                "image":"images/platform/python.svg" 
              },
              {
-                "name":"Drupal",
-                "image":"images/platform/drupal.svg" 
-             }
-             
+                "name":"Golang",
+                "image":"images/platform/golang.svg" 
+             },
+             {
+               "name":"Rust",
+               "image":"images/platform/rust.svg" 
+            },
+            {
+               "name":".Net",
+               "image":"images/platform/net.svg" 
+            },
+            {
+               "name":"PHP",
+               "image":"images/platform/php.png" 
+            },
+            {
+               "name":"Node",
+               "image":"images/platform/node.svg" 
+            },
+            {
+               "name":"Angular",
+               "image":"images/platform/angular.svg" 
+            },
+            {
+               "name":"Vue",
+               "image":"images/platform/vuer.svg" 
+            },
+            {
+               "name":"React",
+               "image":"images/platform/react.svg" 
+            },
+            {
+               "name":"Bootstrap",
+               "image":"images/platform/bootstrap.svg" 
+            }
         ]
     },
     {
         "name":"BlockChain",
         "item":[
             {
-               "name":"WordPress",
-               "image":"images/platform/wordpress.svg" 
+               "name":"Solidity",
+               "image":"images/platform/solidity.svg" 
             },
             {
-                "name":"SharePoint",
-                "image":"images/platform/sharepoint.svg" 
+                "name":"Rust",
+                "image":"images/platform/rust.svg" 
              },
              {
-                "name":"Magento",
-                "image":"images/platform/magento.svg" 
+                "name":"Truffle",
+                "image":"images/platform/truffle-seeklogo.svg" 
              },
              {
-                "name":"Joomia",
-                "image":"images/platform/joomla.svg" 
+                "name":"Hardhat",
+                "image":"images/platform/hardhat-seeklogo.svg" 
              },
              {
-                "name":"Drupal",
-                "image":"images/platform/drupal.svg" 
-             }
+                "name":"Remix",
+                "image":"images/platform/remix.svg" 
+             },
+             {
+               "name":"Defi",
+               "image":"images/platform/defi.svg" 
+            },
+            {
+               "name":"Dex",
+               "image":"images/platform/dex.svg" 
+            },
+            {
+               "name":"Launchpad",
+               "image":"images/platform/launchpad.svg" 
+            },
+            {
+               "name":"Ethereum",
+               "image":"images/platform/ethereum.svg" 
+            },
+            {
+               "name":"Binance",
+               "image":"images/platform/binance.svg" 
+            },
+            {
+               "name":"Fantom",
+               "image":"images/platform/fantom-logo.svg" 
+            },
+            {
+               "name":"Matic",
+               "image":"images/platform/matic.svg" 
+            },
+            {
+               "name":"Terra",
+               "image":"images/platform/terra.svg" 
+            },
+            {
+               "name":"Solana",
+               "image":"images/platform/solana.svg" 
+            }
              
         ]
     }
