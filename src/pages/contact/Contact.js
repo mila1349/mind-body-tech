@@ -47,11 +47,11 @@ function Contact() {
               <ul>
                 <li className='margin-bottom'>
                   <img src="images/mail-black.png" alt="" />
-                  <a href=""><p>info@mindbody-tech.com</p></a>
+                  <a href="mailto:info@mindbody-tech.com"><p>info@mindbody-tech.com</p></a>
                 </li>
                 <li className='margin-bottom'>
                   <img src="images/phone-black.png" alt="" />
-                  <a href=""><p>0161 818 2297</p></a>
+                  <a href="tel:+01618182297"><p>0161 818 2297</p></a>
                 </li>
               </ul>
             </div>
