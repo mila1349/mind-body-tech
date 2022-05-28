@@ -1,0 +1,23 @@
+
+@import 'src/style.scss';#products{
+    .circle-bg{
+        display: none;
+    }
+    #feature{
+        background: $secondaryColor;
+        @include center(column);
+        // padding: 1rem;
+    }
+    .feature{
+        justify-content: space-between;
+        display: grid;
+        
+        grid-gap: 2em;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 2fr));
+        // grid-template-rows: repeat(auto-fill, minmax(20rem, 1fr));
+        .btn-container{
+            // width: max-content;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,210 @@
+[
+    {
+        "name": "officia",
+        "serivces":["Website Design", "Marketing"],
+        "shortDescription": "proident ipsum",
+        "description": "veniam do anim ad non incididunt amet dolore id occaecat occaecat voluptate anim voluptate cupidatat cupidatat labore dolore minim consectetur",
+        "date": "January 26, 2017",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "labore sint qui et anim eu nulla culpa eiusmod consectetur proident do commodo ex sint aliqua culpa reprehenderit laborum ut ut tempor commodo commodo ipsum dolore in non consectetur eu dolore eu ad sunt voluptate non Lorem aute exercitation consequat",
+          "culpa incididunt ex laboris cillum nulla duis et ullamco nostrud commodo velit ad dolor duis laborum do dolor cillum magna consequat aute ullamco duis sit labore Lorem occaecat exercitation est sunt anim et mollit duis aliqua nulla anim nostrud eu"
+        ],
+        "build": [
+          "sit voluptate est do ullamco cillum consequat mollit ut cupidatat ea nostrud qui reprehenderit ad fugiat elit ipsum irure mollit excepteur consequat incididunt sunt do proident eu nostrud aliqua mollit ut consequat officia enim ad magna ut nostrud reprehenderit amet",
+          "occaecat eu amet consequat sunt aute laboris ad eu officia dolore magna proident cillum magna id ex dolor veniam id do excepteur occaecat aute est mollit veniam cupidatat ad consequat et cillum occaecat elit id ex commodo sit ipsum qui"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "magna",
+        "serivces":["Software Solution", "Marketing", "Business Growth", "Website Design"],
+        "shortDescription": "proident ipsum",
+        "description": "cupidatat ex tempor duis cupidatat culpa officia officia nulla irure nulla minim voluptate ullamco nulla ipsum ut aliqua ea occaecat",
+        "date": "January 02, 2019",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "cillum Lorem mollit ullamco cupidatat consectetur ad esse duis anim irure esse magna in laboris ex minim qui reprehenderit nisi consequat irure qui do velit aliqua ipsum laborum minim consectetur cupidatat id eu consectetur culpa in occaecat laborum ullamco eiusmod",
+          "consequat pariatur do nulla tempor ut irure elit fugiat exercitation officia incididunt duis non officia magna exercitation ex occaecat velit est exercitation fugiat voluptate amet pariatur duis labore est esse fugiat non id fugiat nostrud velit velit incididunt et adipisicing"
+        ],
+        "build": [
+          "aliquip in laborum tempor incididunt occaecat commodo labore elit cupidatat aliqua enim ea culpa non aute exercitation commodo amet excepteur quis pariatur velit ad ut aliquip et consectetur cupidatat duis adipisicing eiusmod qui labore nulla quis nostrud eu in mollit",
+          "nostrud consequat duis fugiat voluptate ad dolor nostrud excepteur sit magna amet pariatur voluptate esse minim sunt veniam esse dolor in ipsum dolore quis id exercitation quis ad eu ad non ullamco duis in adipisicing consectetur do pariatur labore fugiat"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "pariatur",
+        "serivces":["Business Growth", "Website Design"],
+        "shortDescription": "proident ipsum",
+        "description": "eu culpa laborum cupidatat amet irure pariatur occaecat fugiat magna duis magna eiusmod do mollit sunt elit et amet fugiat",
+        "date": "March 27, 2014",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "nostrud eiusmod Lorem anim nulla qui ea id cillum consequat ut cupidatat minim duis reprehenderit exercitation veniam fugiat velit adipisicing pariatur est do reprehenderit commodo magna ipsum tempor ullamco enim aliquip do sint deserunt Lorem exercitation pariatur laborum et quis",
+          "elit esse voluptate nulla deserunt quis culpa dolore anim pariatur aute veniam nulla esse irure voluptate laboris dolore velit adipisicing sint laborum nostrud ea tempor mollit sit veniam ipsum incididunt pariatur esse consequat amet dolor culpa labore elit consectetur cupidatat"
+        ],
+        "build": [
+          "exercitation aliquip pariatur in aliquip cillum ullamco deserunt incididunt occaecat tempor aliquip eu incididunt laborum reprehenderit do occaecat ex amet mollit dolor eu veniam deserunt Lorem id labore incididunt laborum irure amet excepteur adipisicing ea excepteur veniam officia id elit",
+          "ad officia ea est irure Lorem magna reprehenderit culpa aute occaecat ea commodo irure ullamco ullamco sunt aute esse sint reprehenderit consectetur ipsum quis ad nostrud enim id voluptate est amet sint aliqua in eu ea occaecat commodo occaecat in"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "amet",
+        "serivces":["Software Solution", "Marketing","Website Design"],
+        "shortDescription": "proident ipsum",
+        "description": "nostrud voluptate Lorem voluptate minim ad adipisicing deserunt proident quis et adipisicing qui sint proident consequat eu id adipisicing id",
+        "date": "March 23, 2018",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "elit amet nisi commodo Lorem occaecat pariatur esse in pariatur laboris duis proident do cillum velit culpa consectetur dolor aliquip deserunt duis non consequat et quis pariatur adipisicing anim laborum laborum veniam incididunt cillum ipsum consequat non Lorem aute adipisicing",
+          "labore tempor veniam ut cillum labore occaecat velit laboris eu officia veniam laboris proident sit veniam ipsum deserunt proident fugiat magna magna ipsum consequat cupidatat laborum elit culpa id quis qui aliqua et fugiat fugiat fugiat commodo exercitation excepteur velit"
+        ],
+        "build": [
+          "culpa aliquip exercitation reprehenderit duis cupidatat tempor magna irure proident qui commodo deserunt ut excepteur eiusmod quis nostrud irure cillum esse cupidatat commodo ex eiusmod eiusmod culpa nisi consequat aliqua elit ea esse ut labore et esse tempor consequat tempor",
+          "amet ea quis quis sit non sunt sit esse non qui do sit anim mollit et incididunt laboris labore in adipisicing proident deserunt duis fugiat culpa aute mollit sint ut esse non excepteur laboris in adipisicing laboris sit voluptate enim"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "consequat",
+        "serivces":["Marketing","Website Design"],
+        "shortDescription": "proident ipsum",
+        "description": "eiusmod Lorem sunt aliquip do proident ipsum nostrud ut nisi sit ea laborum eiusmod in sunt pariatur pariatur eiusmod ut",
+        "date": "March 23, 2019",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "nisi non aliquip veniam ipsum eu nisi ea aliquip non cupidatat deserunt velit consequat cupidatat est ea duis sunt aliquip consequat sint laboris reprehenderit amet incididunt labore do dolor quis nostrud duis anim ex non Lorem est pariatur cillum amet",
+          "dolore minim in dolor excepteur est ex in exercitation pariatur in est do aute ex do officia cillum veniam dolor ipsum tempor minim laborum duis occaecat sit non ad elit cillum consectetur magna in aliqua mollit ad ipsum qui aute"
+        ],
+        "build": [
+          "voluptate ex proident laborum adipisicing magna et ex adipisicing et nostrud magna dolor fugiat elit irure deserunt amet cupidatat Lorem in nostrud et amet labore non nostrud esse nulla nisi anim culpa adipisicing aute voluptate voluptate non ipsum dolore consectetur",
+          "proident officia ea anim irure reprehenderit ex esse laborum do ullamco consectetur tempor occaecat nostrud pariatur ipsum magna cupidatat qui laboris amet proident occaecat fugiat est proident tempor eiusmod officia excepteur amet sit quis laborum incididunt Lorem velit fugiat duis"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "nisi",
+        "serivces":["Business Growth"],
+        "shortDescription": "proident ipsum",
+        "description": "velit dolore id culpa consectetur nisi eiusmod excepteur ullamco commodo voluptate exercitation consectetur non eiusmod consequat tempor adipisicing esse do",
+        "date": "March 05, 2021",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "officia incididunt officia officia laborum pariatur pariatur sunt mollit deserunt ut ut cillum eiusmod laboris cillum dolore cillum sit consequat aliqua laboris commodo eiusmod laborum sint in exercitation dolore minim enim enim dolore reprehenderit aute ipsum occaecat cupidatat aliquip anim",
+          "ullamco eiusmod id ea laboris reprehenderit labore pariatur ut fugiat eu minim Lorem esse quis occaecat est ad quis laboris eiusmod irure ex tempor ex laborum est ad officia deserunt Lorem duis tempor voluptate nostrud nisi sunt adipisicing exercitation irure"
+        ],
+        "build": [
+          "aliqua et mollit aute laborum voluptate quis et elit consectetur cupidatat sint incididunt aliquip ipsum exercitation irure nisi et ex ad laborum cillum et fugiat do et ea magna ut excepteur cupidatat deserunt labore occaecat reprehenderit dolor duis do commodo",
+          "fugiat cillum non est veniam proident elit deserunt exercitation nostrud aliqua quis pariatur reprehenderit sint ullamco deserunt velit aliqua aliqua elit eu est magna nisi cillum magna aliqua in aliquip dolore sit ut dolore mollit adipisicing ex laborum aliquip nostrud"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "qui",
+        "serivces":["Software Solution", "Website Design"],
+        "shortDescription": "proident ipsum",
+        "description": "commodo dolore ad sint nulla commodo ad anim nisi adipisicing eu reprehenderit velit quis Lorem sit veniam qui veniam adipisicing",
+        "date": "September 24, 2021",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "ad adipisicing ullamco ex quis minim consequat culpa do laboris culpa labore fugiat dolore ea enim ea consequat dolor voluptate ea labore eiusmod qui excepteur non reprehenderit eu eiusmod veniam adipisicing reprehenderit aliqua laborum pariatur excepteur enim duis exercitation consectetur",
+          "dolor officia aliqua esse sint eu non cillum labore sunt sint voluptate labore ex duis tempor minim eu proident excepteur non pariatur fugiat laborum culpa duis duis fugiat amet dolore laborum velit ullamco non cillum sunt sint non cillum ipsum"
+        ],
+        "build": [
+          "ullamco labore cupidatat pariatur aliquip id laborum Lorem sint minim nostrud reprehenderit duis sit id laborum proident ad aliquip nostrud velit dolore labore reprehenderit minim esse nulla irure Lorem esse ex consequat consequat nisi fugiat excepteur cillum exercitation incididunt elit",
+          "non occaecat amet fugiat nisi Lorem do deserunt exercitation occaecat mollit minim aliquip sint esse officia cupidatat laboris elit consectetur ullamco ut id reprehenderit enim commodo tempor enim pariatur et mollit incididunt mollit eiusmod culpa nisi reprehenderit irure in velit"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+    },
+    {
+        "name": "velit",
+        "serivces":["Marketing"],
+        "shortDescription": "proident ipsum",
+        "description": "mollit reprehenderit occaecat dolore amet duis incididunt laborum sint qui velit qui cillum quis in exercitation culpa consequat sit voluptate",
+        "date": "March 16, 2014",
+        "image": [
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png",
+          "images/unicoin.png"
+        ],
+        "solution": [
+          "tempor officia eu esse pariatur voluptate reprehenderit aute exercitation cupidatat est aliquip magna consequat fugiat excepteur fugiat in eiusmod do consectetur laboris qui mollit sit sunt officia consectetur cillum do adipisicing adipisicing occaecat ipsum anim laborum veniam fugiat culpa id",
+          "proident et in cupidatat ex minim dolore incididunt eiusmod proident consectetur minim voluptate irure eiusmod occaecat enim esse culpa quis do reprehenderit et cillum minim dolore Lorem amet duis et laborum et amet exercitation id commodo aliquip dolor cillum sunt"
+        ],
+        "build": [
+          "eiusmod Lorem pariatur culpa pariatur et aliqua est aute ex voluptate velit consectetur qui anim et minim irure dolor ea anim dolore mollit mollit sit incididunt officia dolor ea exercitation ipsum culpa aliqua incididunt laboris qui magna proident consequat officia",
+          "officia duis amet ullamco fugiat ut ut quis aute amet magna voluptate non do nulla ut ipsum sint consequat tempor eu aliquip cupidatat dolor sint laborum mollit magna minim excepteur minim sit qui elit pariatur cupidatat esse cillum Lorem ex"
+        ],
+        "banner": "images/banner.png",
+        "mockup":"images/unicoin-laptop.png"
+      }
+]

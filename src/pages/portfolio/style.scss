@@ -1,0 +1,107 @@
+@import 'src/style.scss';
+
+.header{
+    @include center(column);
+    padding: 5rem 0 1rem 0;
+    background: rgba(229, 125, 33, 0.2);
+    text-align: center;
+    position: relative;
+    h1{
+        margin-bottom: 1rem;
+        color: $primaryColor;
+        @include fluid-type(32, 80, 320, 1920);
+    }
+    p:last-of-type{
+        margin-top: 3rem;
+    }
+    button{
+        @include position(absolute, null, null, 0, 50%,2);
+        transform: translate(-50%,50%);
+    }
+}
+.slider-simple{
+    width: 50vw;
+    min-width: 250px;
+    height: max-content;
+    position: relative;
+    margin-bottom: 3rem;
+    .btn-circle-container{
+        @include position(absolute, null, null, -15%, 50%, 2);
+        transform: translateX(-50%);
+    }
+}
+#portfolio-page{
+    overflow: hidden;
+    .wrapper{
+        @include center(column);
+        margin-bottom: 5vw;
+    }
+    .banner{
+        margin: 10vw 0;
+        width: 100%;
+        height: 30vh;
+        position: relative;
+        // background: red;
+        .bg{
+            width: 120%;
+            @include position(absolute, 80%, null, null, 0, 2);
+            transform: translateY(-50%);
+            height: 80vh;
+            @media only screen and (max-width: 700px) {
+                height: 40vh;
+                @include position(absolute, 30%, null, null, 0, 2);
+            }
+        }
+        .banner-center{
+            // height: auto;
+            max-height: 100%;
+            width: 120%;
+            @include position(absolute, 0, null, null, 50%, 3);
+            transform: rotate(-5deg) translateX(-50%);
+            object-fit: cover;
+        }
+
+    }
+
+}
+.portfolio-list{
+    // background: #000;
+    @include center(column);
+    h5{
+        color: #000 !important;
+    }
+    .switch{
+        // width: max-content;
+        margin-bottom: 3rem;
+    }
+    .flex{
+        width: 100%;
+    
+        flex-wrap: wrap;
+        display: grid;
+        // grid-template-columns: 20vw 20vw 20vw 20vw;
+        grid-gap: 2em;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    .box-portfolio{
+        // width: 12vw;
+        height: 20vw;
+        display: inline-block;
+        // margin: 1vw;
+        min-height: 15rem;
+        @include center(row);
+        position: relative;
+        background: $primaryColor;
+        img{
+            width: 90%;
+        }
+        .overlay{
+            text-align: center;
+            color: $bgColor;
+            background: rgba(0, 0, 0, 0.479);
+            @include center(column);
+            @include position(absolute, 0,0,0,0,1);
+        }
+    }
+}
