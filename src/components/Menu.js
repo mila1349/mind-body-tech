@@ -17,6 +17,11 @@ function Menu({open, setOpen}) {
                 </a>
             </li>
             <li >
+                <a href="#services" onClick={()=>setOpen(false)}>
+                    <h1>Services</h1>
+                </a>
+            </li>
+            <li >
                 <a href="/products">
                     <h1>Products</h1>
                 </a>

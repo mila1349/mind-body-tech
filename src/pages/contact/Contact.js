@@ -6,19 +6,20 @@ import apiKey from './emailKey'
 import * as emailjs from "emailjs-com";
 
 function Contact() {
-  const [message, setMessage] = useState({name:"", email:"", message:""})
+  const [message, setMessage] = useState({name:"", email:"", message:"", phone:""})
 
   function handleSubmit(e){
     e.preventDefault();
     emailjs.send(apiKey.SERVICE_ID,apiKey.TEMPLATE_ID,{
         from_name: message.name,
         email:message.email,
+        phone:message.phone,
         message: message.message,
     },apiKey.USER_ID).then((result)=>{
         alert("Message Sent", result.text);
     })
     
-    setMessage({name:"", email:"", message:""})
+    setMessage({name:"", email:"", message:"", phone:""})
 }
 
   return (
@@ -32,6 +33,7 @@ function Contact() {
                 <form action="" onSubmit={handleSubmit}>
                 <input type="text" placeholder='Full Name' required onChange={e=>setMessage({...message, name:e.target.value})}/>
                 <input type="email" placeholder='Email Address' required onChange={e=>setMessage({...message, email:e.target.value})}/>
+                <input type="phone" placeholder='Phone Number' required onChange={e=>setMessage({...message, phone:e.target.value})}/>
                 <textarea name="" id="" cols="30" rows="10" placeholder='Message' required onChange={e=>setMessage({...message, message:e.target.value})}></textarea>
                 <button>send</button>
                 </form>

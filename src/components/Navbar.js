@@ -21,6 +21,11 @@ function Navbar() {
                         <h5>Home</h5>
                     </a>
                 </li>
+                <li>
+                    <a href="#services">
+                        <h5>Services</h5>
+                    </a>
+                </li>
                 <li className='gone'>
                     <a href="/products">
                         <h5>Products</h5>
