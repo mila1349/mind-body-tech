@@ -84,7 +84,7 @@ function Services() {
     <motion.div id='services'
         initial={{y:'100px', opacity:0}}
         whileInView={{y:0, opacity:1}}
-        transition={{duration:1}}
+        transition={{duration:1}}t3ew3w3e
         viewport={{ once: true }}
     >
         <AnimatePresence>

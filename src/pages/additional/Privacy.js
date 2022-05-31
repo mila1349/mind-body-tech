@@ -16,6 +16,9 @@ function Privacy() {
 
             <h1 className='margin-bottom'>2. What Does This Policy Cover?</h1>
             <p>This Privacy Policy applies only to your use of Our Site. Our Site may contain links to other websites. Please note that we have no control over how your data is collected, stored, or used by other websites and we advise you to check the privacy policies of any such websites before providing any data to them.</p>
+
+            <h1 className='margin-bottom'>2. What Does This Policy Cover?</h1>
+            <p></p>
         </div>
     </div>
   )

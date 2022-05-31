@@ -6,6 +6,9 @@
 body{
     font-size: 12px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 $primaryColor:#E57D21;
 $secondaryColor:#2D3435;

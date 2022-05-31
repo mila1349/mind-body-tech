@@ -14,6 +14,7 @@
     }
     h1{
         @include fluid-type(32, 80, 320, 1920);
+        margin-bottom: 0;
     }
     h1:last-of-type{
         color: $primaryColor;
@@ -71,6 +72,9 @@
         }
        .acc{
         @include position(absolute, -10%, -10%, null, null, 1);
+       }
+       h5{
+        margin-top: 0;
        }
     }
 }

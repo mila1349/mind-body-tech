@@ -14,12 +14,15 @@ import Navbar from './components/Navbar';
 import Privacy from './pages/additional/Privacy';
 import Terms from './pages/additional/Terms';
 import Cookie from './pages/additional/Cookie';
+import ScrollToTop from './effect/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         <Switch>
+
 
           <Route path="/portfolio">
             <Navbar/>
@@ -56,7 +59,7 @@ function App() {
             <Cookie/>
           </Route>
 
-          <Route path="/">
+          <Route exact path="/">
             <Navbar/>
             <Home/>
           </Route>

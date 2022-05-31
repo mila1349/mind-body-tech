@@ -1,5 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import {Link} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 function Menu({open, setOpen}) {
   return (
@@ -12,29 +14,29 @@ function Menu({open, setOpen}) {
     >
         <ul>
             <li >
-                <a href="/">
+                <Link to="/" onClick={()=>setOpen(false)}>
                     <h1>Home</h1>
-                </a>
+                </Link>
             </li>
             <li >
-                <a href="#services" onClick={()=>setOpen(false)}>
+                <HashLink to="/#services" onClick={()=>setOpen(false)}>
                     <h1>Services</h1>
-                </a>
+                </HashLink>
             </li>
             <li >
-                <a href="/products">
+                <Link to="/products" onClick={()=>setOpen(false)}>
                     <h1>Products</h1>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/contact">
+                <Link to="/contact" onClick={()=>setOpen(false)}>
                     <h1>Contact</h1>
-                </a>
+                </Link>
             </li>
             <li >
-                <a href="/portfolio">
+                <Link to="/portfolio" onClick={()=>setOpen(false)}>
                     <h1>Portfolio</h1>
-                </a>
+                </Link>
             </li>
         </ul>
     </motion.div>

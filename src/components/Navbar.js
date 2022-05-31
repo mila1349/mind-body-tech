@@ -1,8 +1,17 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Menu from './Menu'
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     const [open, setOpen] = useState(false)
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -100; 
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+    }
+    
+
   return (
     <div className='navbar'>
         <Menu
@@ -12,34 +21,34 @@ function Navbar() {
         <span>
             <ul>
                 <li>
-                    <a href="/">
-                    <img src="images/logo.png" alt="" className='logo'/>
-                    </a>
+                    <Link to="/">
+                        <img src="images/logo.png" alt="" className='logo'/>\
+                    </Link>
                 </li>
                 <li className='gone'>
-                    <a href="/">
+                    <Link to="/">
                         <h5>Home</h5>
-                    </a>
+                    </Link>
                 </li>
-                <li>
-                    <a href="#services">
+                <li className='gone'>
+                    <HashLink to="/#services" scroll={el => scrollWithOffset(el)}>
                         <h5>Services</h5>
-                    </a>
+                    </HashLink>
                 </li>
                 <li className='gone'>
-                    <a href="/products">
+                    <Link to="/products">
                         <h5>Products</h5>
-                    </a>
+                    </Link>
                 </li>
                 <li className='gone'>
-                    <a href="/contact">
+                    <Link to="/contact">
                         <h5>Contact</h5>
-                    </a>
+                    </Link>
                 </li>
                 <li className='gone'>
-                    <a href="/portfolio">
+                    <Link to="/portfolio">
                         <h5>Portfolio</h5>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </span>
