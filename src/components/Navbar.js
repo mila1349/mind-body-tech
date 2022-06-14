@@ -2,18 +2,31 @@ import React, {useState, useEffect} from 'react'
 import Menu from './Menu'
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
+import { useViewportScroll } from "framer-motion";
 
 function Navbar() {
+    const { scrollY } = useViewportScroll();
     const [open, setOpen] = useState(false)
+    const [isScroll, setIsScroll] = useState(false)
     const scrollWithOffset = (el) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
         const yOffset = -100; 
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
     }
+
+    scrollY.onChange(y => {
+        if(y<=50){
+            setIsScroll(false)
+        }else{
+            setIsScroll(true)
+        }
+        
+
+    })
     
 
   return (
-    <div className='navbar'>
+    <div className='navbar' style={isScroll?{background:'#fff'}:{}}>
         <Menu
             open={open}
             setOpen={setOpen}

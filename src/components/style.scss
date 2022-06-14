@@ -250,6 +250,7 @@
     }
 }
 .navbar{
+    // background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -259,6 +260,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 0rem;
+    transition: opacity 200ms linear;
     span{
         display: flex;
         margin-left: 3rem;
